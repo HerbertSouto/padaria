@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "padaria"
+version = "0.1.0"
+description = ""
+authors = ["Herbert Souto <herbert-93@hotmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+streamlit = "^1.39.0"
+openpyxl = "^3.1.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
